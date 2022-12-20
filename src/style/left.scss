@@ -95,7 +95,7 @@
         display: flex;
         justify-content: flex-end;
         align-items: center;
-
+        flex-wrap: nowrap;
     }
 
     h4 {
@@ -127,7 +127,7 @@
         display: flex;
         justify-content: space-between;
 
-        width: 75%;
+        width: 82%;
 
         .binanceLogo {
             display: flex;
@@ -146,6 +146,7 @@
             }
 
             h5 {
+                margin-left: 10px;
                 display: inline;
                 font-style: normal;
                 font-weight: 500;
@@ -196,10 +197,7 @@
 
             }
         }
-
-
     }
-
 
 }
 
@@ -215,6 +213,7 @@
             justify-content: space-between;
 
             h4 {
+                margin-left: 10px;
                 font-style: normal;
                 font-weight: 500;
                 font-size: 18px;
@@ -225,6 +224,7 @@
             }
 
             h5 {
+                margin-right: 10px;
                 font-style: normal;
                 font-weight: 500;
                 font-size: 16px;
