@@ -1,5 +1,5 @@
 import Container from './components/Container'
-import './sass/header.scss'
+import './style/app.style.scss'
 function App() {
   return (
     <>
