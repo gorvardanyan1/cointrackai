@@ -1,0 +1,40 @@
+.message {
+    position: relative;
+    padding: 15px 25px;
+    background: #212734;
+    box-shadow: inset 0px -0.2px 1px #805AD5;
+    border-radius: 10px;
+    max-height: 150px;
+    height: min-content;
+
+    svg {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+    }
+
+    p {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16.0543px;
+        line-height: 26px;
+        color: #FFFFFF;
+
+        span {
+            color: #E04F44;
+        }
+    }
+
+    button {
+        width: 100%;
+        cursor: pointer;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16.0543px;
+        line-height: 35px;
+        color: #FFFFFF;
+        background: #A37DF9;
+        border-radius: 10px;
+        border: none;
+    }
+}

@@ -1,11 +1,10 @@
-.futuresDiv {
+.futureDiv {
     background: #242A39;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 4.38803px;
     max-width: 500px;
     min-width: 200px;
-    padding: 10px 20px;
-
+    padding: 10px 15px;
 
 }
 
@@ -68,10 +67,10 @@
 
     .rightDiv {
         span {
-            padding: 7px 15px;
+            padding: 7px 12px;
             font-style: normal;
             font-weight: 500;
-            font-size: 24px;
+            font-size: 22px;
             line-height: 36px;
             color: #FFFFFF;
             background: linear-gradient(180deg, #2B3341 0%, rgba(61, 73, 95, 0.00693628) 99.99%, rgba(33, 39, 51, 0) 100%);
@@ -85,6 +84,7 @@
 
 // //////////////////////graph
 .futureGraph {
+    position: relative;
     margin: 7px 0;
     background: #1F2633;
 
@@ -95,19 +95,21 @@
     div {
         width: 100% !important;
 
+
         svg {
+
             width: 100%;
         }
     }
 
-    .recharts-wrapper {
-        width: 100% !important;
+    // .recharts-wrapper {
+    //     width: 100% !important;
 
-        svg {
+    //     svg {
 
-            width: 100% !important;
-        }
-    }
+    //         width: 100% !important;
+    //     }
+    // }
 }
 
 
@@ -116,7 +118,7 @@
 /* footer */
 
 .footerFutures {
-    width: 80%;
+
     display: flex;
     justify-content: space-between;
 

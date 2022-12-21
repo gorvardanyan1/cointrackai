@@ -11,12 +11,12 @@ body {
 .container {
     main {
         width: 97%;
-        margin: 0 auto;
+        margin: 10px auto;
         display: grid;
-
         grid-template-areas:
-            'left totalPoints mostUsableExchange coins right right'
-            'left balance analytics future footer footer';
+            'left totalPoints  mostUsableExchange coins'
+            'left balance analytics future '
+            'message holdings holdings  holdings  ';
         gap: 10px;
 
         .leftMainDiv {
@@ -45,6 +45,14 @@ body {
 
         .futureDiv {
             grid-area: future;
+        }
+
+        .tableDiv {
+            grid-area: holdings;
+        }
+
+        .message {
+            grid-area: message;
         }
     }
 }

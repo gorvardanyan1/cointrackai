@@ -533,3 +533,348 @@ export const futureData = [
         pv: 12000
     },
 ];
+
+
+export const holdingsData = [
+    {
+        id: 1,
+        tableName: "Aave Abat v2",
+        amount: 99,
+        total: 56.48,
+        hourCharge: { isPositive: true, num: 1.88 },
+        marketCap: 78,
+        priceBtc: 9.12455558,
+        priceGraph: [{
+            name: 'Page A',
+            pv: 2400,
+        },
+        {
+            name: 'Page B',
+            pv: 15000,
+        },
+        {
+            name: 'Page C',
+            pv: 9800,
+        },
+        {
+            name: 'Page D',
+            pv: 5000,
+        },
+        {
+            name: 'Page E',
+            pv: 12000,
+        },
+        {
+            name: 'Page F',
+            pv: 1500,
+        },
+        {
+            name: 'Page G',
+            pv: 0,
+
+        },
+        {
+            name: 'Page Y',
+            pv: 5000,
+        },
+        {
+            name: 'Page R',
+            pv: 12000,
+
+        },
+        {
+            name: 'Page J',
+            pv: 2400,
+
+        },
+        {
+            name: 'Page K',
+            pv: 1398,
+
+        },
+        {
+            name: 'Page L',
+            pv: 5000,
+
+        },
+        {
+            name: 'Page M',
+            pv: 10000,
+        },
+        {
+            name: 'Page O',
+            pv: 1000,
+        },
+        {
+            name: 'Page P',
+            pv: 15000,
+        },
+        {
+            name: 'Page A',
+            pv: 2400,
+        },
+        {
+            name: 'Page B',
+            pv: 15000,
+        },
+        {
+            name: 'Page C',
+            pv: 9800,
+        },
+        {
+            name: 'Page J',
+            pv: 2400,
+
+        },
+        {
+            name: 'Page K',
+            pv: 1398,
+
+        },
+        {
+            name: 'Page L',
+            pv: 5000,
+
+        }, {
+            name: 'Page C',
+            pv: 9800,
+        },
+        {
+            name: 'Page J',
+            pv: 2400,
+
+        },
+        {
+            name: 'Page K',
+            pv: 1398,
+
+        },
+        {
+            name: 'Page L',
+            pv: 5000,
+
+        }
+        ]
+    },
+    {
+        id: 2,
+        tableName: "Aave Abat v2",
+        amount: 99,
+        total: 39.78,
+        hourCharge: { isPositive: false, num: 0.25 },
+        marketCap: 54,
+        priceBtc: 5.11475358,
+        priceGraph: [{
+            name: 'Page A',
+            pv: 2400,
+        },
+        {
+            name: 'Page B',
+            pv: 15000,
+        },
+        {
+            name: 'Page C',
+            pv: 9800,
+        },
+        {
+            name: 'Page D',
+            pv: 5000,
+        },
+        {
+            name: 'Page E',
+            pv: 12000,
+        },
+        {
+            name: 'Page F',
+            pv: 1500,
+        },
+        {
+            name: 'Page G',
+            pv: 0,
+
+        },
+        {
+            name: 'Page Y',
+            pv: 5000,
+        },
+        {
+            name: 'Page R',
+            pv: 12000,
+
+        }, {
+            name: 'Page A',
+            pv: 2400,
+        },
+        {
+            name: 'Page B',
+            pv: 15000,
+        },
+        {
+            name: 'Page C',
+            pv: 9800,
+        },
+        {
+            name: 'Page D',
+            pv: 5000,
+        },
+        {
+            name: 'Page E',
+            pv: 12000,
+        },
+        {
+            name: 'Page J',
+            pv: 2400,
+
+        },
+        {
+            name: 'Page K',
+            pv: 1398,
+
+        },
+        {
+            name: 'Page L',
+            pv: 5000,
+
+        },
+        {
+            name: 'Page M',
+            pv: 10000,
+        },
+        {
+            name: 'Page O',
+            pv: 1000,
+        },
+        {
+            name: 'Page P',
+            pv: 15000,
+        },
+        {
+            name: 'Page A',
+            pv: 2400,
+        },
+        {
+            name: 'Page B',
+            pv: 15000,
+        },
+        {
+            name: 'Page C',
+            pv: 9800,
+        },
+        {
+            name: 'Page J',
+            pv: 2400,
+
+        },
+        {
+            name: 'Page K',
+            pv: 1398,
+
+        },
+        {
+            name: 'Page L',
+            pv: 5000,
+
+        },]
+    },
+    {
+        id: 3,
+        tableName: "Aave Abat v2",
+        amount: 99,
+        total: 15.37,
+        hourCharge: { isPositive: true, num: 2.12 },
+        marketCap: 69,
+        priceBtc: 3.11475368,
+        priceGraph: [{
+            name: 'Page A',
+            pv: 2400,
+        },
+        {
+            name: 'Page B',
+            pv: 15000,
+        },
+        {
+            name: 'Page C',
+            pv: 9800,
+        },
+        {
+            name: 'Page D',
+            pv: 5000,
+        },
+        {
+            name: 'Page E',
+            pv: 12000,
+        },
+        {
+            name: 'Page F',
+            pv: 1500,
+        },
+        {
+            name: 'Page G',
+            pv: 0,
+
+        },
+        {
+            name: 'Page Y',
+            pv: 5000,
+        },
+        {
+            name: 'Page R',
+            pv: 12000,
+
+        },
+        {
+            name: 'Page J',
+            pv: 2400,
+
+        },
+        {
+            name: 'Page K',
+            pv: 1398,
+
+        },
+        {
+            name: 'Page L',
+            pv: 5000,
+
+        },
+        {
+            name: 'Page M',
+            pv: 10000,
+        },
+        {
+            name: 'Page O',
+            pv: 1000,
+        },
+        {
+            name: 'Page P',
+            pv: 15000,
+        },
+        {
+            name: 'Page A',
+            pv: 2400,
+        },
+        {
+            name: 'Page B',
+            pv: 15000,
+        },
+        {
+            name: 'Page C',
+            pv: 9800,
+        },
+        {
+            name: 'Page J',
+            pv: 2400,
+
+        },
+        {
+            name: 'Page K',
+            pv: 1398,
+
+        },
+        {
+            name: 'Page L',
+            pv: 5000,
+
+        },]
+    }
+] 

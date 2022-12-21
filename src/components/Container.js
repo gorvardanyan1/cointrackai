@@ -7,6 +7,8 @@ import TotalPoints from './totalPoints/TotalPoints'
 import Balance from './balance/Balance'
 import Analytics from './analytics/Analytics'
 import Future from './future/Future'
+import Holdings from './holdings/Holdings'
+import Message from './message/Message'
 const Container = () => {
     return (
         <div className='container'>
@@ -19,6 +21,9 @@ const Container = () => {
                 <Balance />
                 <Analytics />
                 <Future />
+                <Message />
+                <Holdings />
+
             </main>
         </div>
     )
