@@ -1,0 +1,92 @@
+.tableDiv {
+    background: #212834;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+
+        thead {
+            background: #272E3C;
+            height: 53px;
+
+            th {
+                margin: 0 auto;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 27px;
+                color: #FFFFFF;
+
+            }
+        }
+
+        tbody {
+
+
+            tr {
+                height: 62px;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 29px;
+                color: #ECECEC;
+
+                td {
+                    padding: 2px 10px;
+                    text-align: center;
+                    border-bottom: 1px solid #3B3D50;
+                }
+
+                .graph {
+                    width: 150px !important;
+                }
+
+                .charge {
+                    color: #34D35C;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 29px;
+
+
+                }
+
+                .chargePositive {
+                    color: #34D35C;
+                }
+
+                .chargeNegative {
+                    color: red;
+
+                    svg {
+                        transform: rotate(180deg);
+
+                        path {
+                            fill: red;
+                        }
+                    }
+                }
+
+                .menuSvg {
+                    svg {
+                        display: flex;
+                        margin: 0 auto;
+                    }
+                }
+
+                .holdingNameTd {
+                    height: 100%;
+
+
+                    img {
+                        margin-right: 5px;
+                        width: 22px;
+                        height: 21px;
+                    }
+                }
+            }
+        }
+    }
+}

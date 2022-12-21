@@ -10,21 +10,96 @@ body {
 
 .container {
     main {
-        width: 95%;
+        width: 97%;
         margin: 0 auto;
         display: grid;
+
         grid-template-areas:
-            'left totalPoints main main right right'
-            'left footer footer footer footer footer';
+            'left totalPoints mostUsableExchange coins right right'
+            'left balance analytics future footer footer';
         gap: 10px;
 
         .leftMainDiv {
             grid-area: left;
+        }
 
+        .mostUsableExchange {
+            grid-area: mostUsableExchange;
         }
 
         .totalPoints {
             grid-area: totalPoints;
         }
+
+        .coins {
+            grid-area: coins;
+        }
+
+        .balance {
+            grid-area: balance;
+        }
+
+        .analytics {
+            grid-area: analytics;
+        }
+
+        .futureDiv {
+            grid-area: future;
+        }
+    }
+}
+
+.timeDiv {
+
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+
+    span {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13.6736px;
+        line-height: 148%;
+        color: #FFFFFF;
+        padding: 2px 5px;
+        cursor: pointer;
+    }
+
+    .active {
+        background: #1A202C;
+        border: 0.911574px solid #A3A0A0;
+        border-radius: 1.82315px;
+    }
+}
+
+
+
+.sectionHeader {
+
+    display: flex;
+    justify-content: space-between;
+
+
+    h2 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 29px;
+
+        color: #FFFFFF;
+    }
+
+    a {
+
+        text-align: right;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        color: #805AD5;
     }
 }

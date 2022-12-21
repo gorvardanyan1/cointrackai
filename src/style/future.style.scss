@@ -1,0 +1,144 @@
+.futuresDiv {
+    background: #242A39;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4.38803px;
+    max-width: 500px;
+    min-width: 200px;
+    padding: 10px 20px;
+
+
+}
+
+.headerFutures {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+    background: linear-gradient(180deg, #2B3341 0%, rgba(61, 73, 95, 0.00693628) 99.99%, rgba(33, 39, 51, 0) 100%);
+
+    border: 0.482541px solid #686868;
+    border-radius: 5px;
+
+    .leftDiv {
+        div {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        h5 {
+            color: #FFFFFF;
+        }
+
+        .positive {
+            h4 {
+                display: inline;
+                margin-left: 5px;
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16.9133px;
+                line-height: 20px;
+                color: #61E224;
+            }
+        }
+
+        .negative {
+            h4 {
+                display: inline;
+                margin-left: 5px;
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16.9133px;
+                line-height: 20px;
+                color: #FF0000;
+                ;
+            }
+
+            svg {
+                transform: matrix(1, 0, 0, -1, 0, 0);
+
+                path {
+                    stroke: #FF0000;
+                }
+            }
+        }
+    }
+
+    .rightDiv {
+        span {
+            padding: 7px 15px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 36px;
+            color: #FFFFFF;
+            background: linear-gradient(180deg, #2B3341 0%, rgba(61, 73, 95, 0.00693628) 99.99%, rgba(33, 39, 51, 0) 100%);
+            border: 0.239945px solid #686868;
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+            border-radius: 2.48626px;
+
+        }
+    }
+}
+
+// //////////////////////graph
+.futureGraph {
+    margin: 7px 0;
+    background: #1F2633;
+
+
+    border: 0.482541px solid #686868;
+    border-radius: 2.41271px;
+
+    div {
+        width: 100% !important;
+
+        svg {
+            width: 100%;
+        }
+    }
+
+    .recharts-wrapper {
+        width: 100% !important;
+
+        svg {
+
+            width: 100% !important;
+        }
+    }
+}
+
+
+
+
+/* footer */
+
+.footerFutures {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+
+
+    div {
+        h4 {
+            margin-bottom: 5px;
+            color: #FFFFFF;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12.6962px;
+            line-height: 148%;
+        }
+
+        h6 {
+            margin-top: 5px;
+            color: #FFFFFF;
+
+        }
+
+        .money {
+            color: #805AD5;
+        }
+    }
+}
